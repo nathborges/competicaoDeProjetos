@@ -69,8 +69,7 @@ Projeto criandoTodosComponentes(Projeto ProjetoNovo) {
         cout << "Insira apenas os números do CPF do componente, sem pontuação: ";
         cin.getline(ProjetoNovo.componentesDoProjeto[i].cpf, 100);
     }
-    
-    cout << i;
+
     for (i; i <= MAXCOMPONENTS-1; i++) {
         strcpy(ProjetoNovo.componentesDoProjeto[i].nome, "");
         strcpy(ProjetoNovo.componentesDoProjeto[i].cpf, "0");
